@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Retro;
+    src: url(fonts/retro_computer_personal_use.ttf);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.image {
+    flex: 1;
+    padding-left: 170px;
+    text-align: center;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+.text {
+    flex: 1;
+    padding: 50px 200px 50px 25px;
+    border-left: 1px solid #ccc;
+}
+.text h1 {
+    font-size: 36px;
+    margin-top: 0;
+    font-family: Retro;
+}
+.text p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text h5 {
+    font-size: 10px;
+    font-family: Retro;
+    font-style: italic;
+    font-weight: bold;
+}
